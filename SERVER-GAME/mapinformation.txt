@@ -1,0 +1,20 @@
+# map creator. Server will process this file
+# Command + Pos
+
+Map
+75 169
+End
+Flag
+55 156
+End
+Safezone
+56 32
+End
+Creature
+62 65
+...
+End
+Blockades
+46 81
+..
+End

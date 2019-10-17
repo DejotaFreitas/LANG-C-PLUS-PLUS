@@ -1,0 +1,13 @@
+C:\zGITHUB\C_Plus_Plus\00_BASE\013_thread.cpp: In function 'int main()':
+C:\zGITHUB\C_Plus_Plus\00_BASE\013_thread.cpp:15:3: error: 'thread' is not a member of 'std'
+   std::thread first (foo);     // spawn new thread that calls foo()
+   ^~~
+C:\zGITHUB\C_Plus_Plus\00_BASE\013_thread.cpp:16:3: error: 'thread' is not a member of 'std'
+   std::thread second (bar,0);  // spawn new thread that calls bar(0)
+   ^~~
+C:\zGITHUB\C_Plus_Plus\00_BASE\013_thread.cpp:21:3: error: 'first' was not declared in this scope
+   first.join();                // pauses until first finishes
+   ^~~~~
+C:\zGITHUB\C_Plus_Plus\00_BASE\013_thread.cpp:22:3: error: 'second' was not declared in this scope
+   second.join();               // pauses until second finishes
+   ^~~~~~
